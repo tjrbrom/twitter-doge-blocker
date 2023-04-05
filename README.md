@@ -1,0 +1,1 @@
+# twitter-doge-blocker
