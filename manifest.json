@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Doge Blocker",
+    "version": "1.0",
+    "description": "Blocks everything related to doge on Twitter",
+    "permissions": ["declarativeNetRequest"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "doge_blocker",
+            "enabled": true,
+            "path": "rules.json"
+        }]
+    }
+}
