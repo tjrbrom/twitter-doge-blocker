@@ -1,1 +1,1 @@
-# twitter-doge-blocker
+Blocks anything related to fukin doge from twatter.
